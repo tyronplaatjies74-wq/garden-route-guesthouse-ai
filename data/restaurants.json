@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Sirocco Restaurant",
+    "town": "Knysna",
+    "type": "Seafood",
+    "price": "R200 - R350",
+    "best_for": "Date night, waterfront views",
+    "distance": "5 min drive"
+  },
+  {
+    "name": "The Fat Fish",
+    "town": "Plettenberg Bay",
+    "type": "Seafood, Family",
+    "price": "R150 - R280",
+    "best_for": "Family dinner, fresh fish",
+    "distance": "In town"
+  },
+  {
+    "name": "Emily Moon",
+    "town": "Plettenberg Bay",
+    "type": "Fine dining",
+    "price": "R300 - R500",
+    "best_for": "Special occasion",
+    "distance": "10 min drive"
+  },
+  {
+    "name": "Cafe Gannet",
+    "town": "Mossel Bay",
+    "type": "Seafood, Casual",
+    "price": "R120 - R250",
+    "best_for": "Lunch, harbour views",
+    "distance": "In town"
+  }
+]
