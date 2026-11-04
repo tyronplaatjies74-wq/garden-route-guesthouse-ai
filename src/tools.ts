@@ -1,7 +1,7 @@
 import { z } from "zod";
-import guesthouse from "../data/guesthouse.json" assert { type: "json" };
-import restaurants from "../data/restaurants.json" assert { type: "json" };
-import activities from "../data/activities.json" assert { type: "json" };
+import guesthouse from "../data/guesthouse.json" with { type: "json" };
+import restaurants from "../data/restaurants.json" with { type: "json" };
+import activities from "../data/activities.json" with { type: "json" };
 
 export const tools = [
   {
