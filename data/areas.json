@@ -1,0 +1,38 @@
+[
+  {
+    "town": "George",
+    "description": "Garden Route capital, airport, golf, great base for day trips",
+    "nearest_beach": "Wilderness Beach, 15 min",
+    "best_for": "Airport, business, families"
+  },
+  {
+    "town": "Knysna",
+    "description": "Lagoon town, Knysna Heads, waterfront, oysters",
+    "nearest_beach": "Brenton-on-Sea, 15 min",
+    "best_for": "Couples, food, lagoon cruises"
+  },
+  {
+    "town": "Plettenberg Bay",
+    "description": "Beaches, whale watching, Monkeyland, Robberg",
+    "nearest_beach": "Central Beach, 5 min",
+    "best_for": "Beaches, families, adventure"
+  },
+  {
+    "town": "Wilderness",
+    "description": "Quiet, lakes, long beach, paragliding",
+    "nearest_beach": "Wilderness Beach, 2 min",
+    "best_for": "Relaxing, nature, hiking"
+  },
+  {
+    "town": "Mossel Bay",
+    "description": "First Garden Route town from Cape Town, harbour, shark cage diving",
+    "nearest_beach": "Santos Beach, 2 min",
+    "best_for": "History, beach, family stop"
+  },
+  {
+    "town": "Storms River",
+    "description": "Tsitsikamma, suspension bridge, canopy tours",
+    "nearest_beach": "Storms River Mouth, 5 min",
+    "best_for": "Adventure, hiking"
+  }
+]
