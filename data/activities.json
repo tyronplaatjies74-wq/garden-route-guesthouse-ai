@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Knysna Heads Viewpoint",
+    "town": "Knysna",
+    "type": "Viewpoint, Free",
+    "duration": "1 hour",
+    "best_for": "Sunset, photos",
+    "price": "Free"
+  },
+  {
+    "name": "Tsitsikamma Canopy Tour",
+    "town": "Storms River",
+    "type": "Adventure",
+    "duration": "3 hours",
+    "best_for": "Families, thrill seekers",
+    "price": "Around R750 per person"
+  },
+  {
+    "name": "Cango Caves",
+    "town": "Oudtshoorn",
+    "type": "Day Trip",
+    "duration": "Full day",
+    "best_for": "Families, geology",
+    "price": "Around R250 per person"
+  },
+  {
+    "name": "Monkeyland Primate Sanctuary",
+    "town": "Plettenberg Bay",
+    "type": "Family",
+    "duration": "2 hours",
+    "best_for": "Kids, animal lovers",
+    "price": "Around R300 per person"
+  }
+]
