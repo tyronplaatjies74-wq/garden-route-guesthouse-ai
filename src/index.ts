@@ -62,12 +62,13 @@ app.get("/", (req, res) => {
   "#qInput{flex:1;padding:12px;border-radius:10px;border:1px solid #ccc;font-size:15px}" +
   "#sendBtn{background:#2d4a3e;color:white;border:none;padding:12px 18px;border-radius:10px;font-weight:bold}" +
   ".footer{text-align:center;padding:15px;font-size:12px;opacity:.6}" +
-  ".chip{background:#f5f0e8;border:none;padding:7px 10px;border-radius:20px;margin:3px;font-size:12px}" + ".orb{width:60px;height:60px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #e8b44a, #2d4a3e 55%, #0f1f1a 90%);box-shadow:0 0 25px #e8b44a, 0 0 45px #2d4a3e;display:block;margin-bottom:6px;border:1px solid #e8b44a}" +
+  ".chip{background:#f5f0e8;border:none;padding:7px 10px;border-radius:20px;margin:3px;font-size:12px;cursor:pointer}" +
+  ".orb{width:60px;height:60px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #e8b44a, #2d4a3e 55%, #0f1f1a 90%);box-shadow:0 0 25px #e8b44a, 0 0 45px #2d4a3e;display:block;margin-bottom:6px;border:1px solid #e8b44a}" +
   "</style>" +
   "</head>" +
   "<body>" +
   "<div class='header'><h1>Thornwood Guesthouse</h1><p>Knysna, Garden Route, South Africa</p><p>Your AI Concierge is Online</p><div class='badge'>LIVE - AI CONCIERGE ONLINE</div></div>" +
-  `"<div class='card'><div class='orb'></div><h3>Ask The AI Concierge</h3><div id='chatBox'><div class='msg ai'>Hi! I am your Thornwood AI Concierge. Ask me about WiFi, breakfast, check-in, restaurants, or day trips.</div><div class='chips'><span class='chip'>WiFi password?</span><span class='chip'>Breakfast time?</span><span class='chip'>Best seafood?</span><span class='chip'>Day trip idea?</span></div><div class='inputrow'><input id='q' placeholder='Ask Thornwood AI...'><button onclick='ask()'>Send</button></div></div>" +`
+  "<div class='card'><div class='orb'></div><h3>Ask The AI Concierge</h3><div id='chatBox'><div class='msg ai'>Hi! I am your Thornwood AI Concierge. Ask me about WiFi, breakfast, check-in, restaurants, or day trips.</div></div>" +
   "<div><button class='chip' id='btnWifi'>WiFi password?</button><button class='chip' id='btnFood'>Seafood?</button><button class='chip' id='btnTrip'>Day trip</button><button class='chip' id='btnBreak'>Breakfast?</button></div>" +
   "<div id='inputRow' style='margin-top:10px'><input id='qInput' placeholder='Type your question here...' /><button id='sendBtn'>Send</button></div></div>" +
   "<div class='card'><h3>Welcome to Thornwood</h3><p>Hi, I am your AI Concierge. I know everything about the guesthouse, restaurants in Knysna, and day trips on the Garden Route.</p><a class='btn' href='#'>Chat on WhatsApp</a><a class='btn btn2' href='#'>Call Host</a></div>" +
