@@ -103,5 +103,5 @@ app.get("/mcp", async (req, res) => {
   res.status(405).send("Use POST");
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = (globalThis as any).process?.env?.PORT || 3000;
 app.listen(PORT, () => console.log("Guesthouse AI running on " + PORT));
