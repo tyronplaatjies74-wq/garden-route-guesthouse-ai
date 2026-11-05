@@ -62,7 +62,7 @@ app.get("/", (req, res) => {
   "#qInput{flex:1;padding:12px;border-radius:10px;border:1px solid #ccc;font-size:15px}" +
   "#sendBtn{background:#2d4a3e;color:white;border:none;padding:12px 18px;border-radius:10px;font-weight:bold}" +
   ".footer{text-align:center;padding:15px;font-size:12px;opacity:.6}" +
-  ".chip{background:#f5f0e8;border:none;padding:7px 10px;border-radius:20px;margin:3px;font-size:12px}" +
+  ".chip{background:#f5f0e8;border:none;padding:7px 10px;border-radius:20px;margin:3px;font-size:12px}" + ".orb{width:60px;height:60px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #e8b44a, #2d4a3e 55%, #0f1f1a 90%);box-shadow:0 0 25px #e8b44a, 0 0 45px #2d4a3e;display:block;margin-bottom:6px;border:1px solid #e8b44a}" +
   "</style>" +
   "</head>" +
   "<body>" +
